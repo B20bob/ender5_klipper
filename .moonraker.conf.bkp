@@ -47,6 +47,13 @@ path = ~/mainsail-config
 origin = https://github.com/mainsail-crew/mainsail-config.git
 managed_services = klipper
 
+[update_manager client ZeroGTheme]
+type = git_repo
+path = ~/zerog-mainsail-theme
+origin = https://github.com/ZeroGDesign/zerog-mainsail-theme.git
+install_script = install.sh
+is_system_service = False
+
 [update_manager crowsnest]
 type = git_repo
 path = ~/crowsnest
